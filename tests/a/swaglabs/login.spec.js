@@ -4,7 +4,7 @@ test.describe('1st swag labs test script', async ({ page }) => {
 
     await page.goto('https://www.saucedemo.com/');
 
-    await page.getByRole('textbox', { name: 'Username' }).fill('standard_user');
+    await page.getByRole('textbox', { name: 'Username' }).fill('standard_userr');
 
     await page.locator('//input[@type="password"]').fill('secret_sauce');
 
